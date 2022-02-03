@@ -1,6 +1,6 @@
 package solid;
 
-public class TranscationByUPI extends Cost {
+public class TranscationByUPI extends TranscationByCash {
     public void pay()
     {
         System.out.println("Paid with UPI"+money);
